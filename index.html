@@ -9,114 +9,84 @@
 body {
 margin: 0;
 font-family: Arial, sans-serif;
-background-color: #000;
+background: radial-gradient(circle at top, #2a0018, #000);
 color: #fff;
 text-align: center;
 }
 
-header {
+.hero {
 padding: 120px 20px;
-background: linear-gradient(to bottom, #000, #111);
 }
 
 .logo {
-width: 260px;
+width: 320px;
+max-width: 90%;
 margin-bottom: 30px;
 }
 
 h1 {
 font-size: 60px;
 letter-spacing: 6px;
-color: #ff2f7d;
-margin-bottom: 10px;
+color: #ff4da6;
+margin-bottom: 15px;
 }
 
 .tagline {
 font-size: 20px;
-color: #ff8fb8;
-margin-bottom: 30px;
+color: #ff9acb;
+margin-bottom: 40px;
 }
 
 .button {
 display: inline-block;
-padding: 15px 35px;
-background-color: #ff2f7d;
-color: #fff;
+padding: 15px 40px;
+background: linear-gradient(45deg, #ff2f7d, #ff66b2);
+color: white;
 text-decoration: none;
-border-radius: 30px;
+border-radius: 40px;
 font-weight: bold;
+box-shadow: 0 0 20px #ff2f7d;
 transition: 0.3s;
 }
 
 .button:hover {
-background-color: #e60063;
+transform: scale(1.05);
 }
 
 section {
 padding: 80px 20px;
 }
 
-.box {
-max-width: 700px;
+.container {
+max-width: 900px;
 margin: auto;
+text-align: left;
+line-height: 1.7;
 }
 
 h2 {
-color: #ff2f7d;
-margin-bottom: 20px;
+color: #ff4da6;
+text-align: center;
 }
 
 .qr {
-width: 250px;
+width: 220px;
 margin-top: 20px;
 border-radius: 12px;
 }
-<section id="legal" style="padding:80px 20px; background:#0a0a0a; border-top:1px solid #ff4da6;">
 
-<h2 style="color:#ff4da6;">Legal & Safety</h2>
-
-<div style="max-width:800px; margin:auto; text-align:left; line-height:1.6; margin-top:30px;">
-
-<h3 style="color:#ff4da6;">Event Disclaimer</h3>
-
-<p>
-Legacy Society events are private, curated experiences intended for invited and approved guests only.
-All ticket sales and membership payments are final unless the event is canceled by the organizer.
-Admission is subject to approval and verification.
-Legacy Society reserves the right to refuse entry at its discretion.
-</p>
-
-<p>
-Attendees assume personal responsibility for their conduct during the event.
-Legacy Society is not responsible for lost, stolen, or damaged personal property.
-Event details and programming are subject to change if necessary.
-</p>
-
-<h3 style="color:#ff4da6; margin-top:40px;">Liability Waiver</h3>
-
-<p>
-By attending a Legacy Society event, you voluntarily assume full responsibility for any risks, injuries, or damages that may occur.
-You release and discharge Legacy Society, its organizers, affiliates, staff, contractors, and venue partners from any liability arising from participation.
-</p>
-
-<p>
-Attendees agree to comply with all venue rules, local laws, and event guidelines.
-Legacy Society reserves the right to remove any attendee for unsafe, unlawful, or disruptive behavior without refund.
-</p>
-
-<p>
-If alcohol is served, attendees acknowledge that they are responsible for their own consumption and must be 21 years of age or older.
-</p>
-
-</div>
-
-</section>
 footer {
-padding: 20px;
-background-color: #000;
-border-top: 1px solid #ff2f7d;
+padding: 30px;
+border-top: 1px solid #ff4da6;
 font-size: 14px;
 margin-top: 60px;
+}
+
+.policy-box {
+background: #111;
+padding: 20px;
+border-radius: 10px;
+margin-top: 20px;
 }
 
 </style>
@@ -124,10 +94,9 @@ margin-top: 60px;
 
 <body>
 
-<header>
+<div class="hero">
 
-<!-- LOGO IMAGE -->
-<img src="logo.png" alt="Legacy Society Logo" class="logo">
+<img src="B3FA3C51-EAAB-4A74-85DD-8296268C7EDC.png" class="logo">
 
 <h1>LEGACY SOCIETY</h1>
 
@@ -139,29 +108,91 @@ Curated Rooms. Elevated Minds. Timeless Influence.
 Apply For Access
 </a>
 
-</header>
+</div>
+
+<section id="about">
+<h2>About</h2>
+<div class="container">
+<p>
+Legacy Society is a private curated network designed for elevated minds, meaningful connections,
+and exclusive experiences. This is not for everyone. This is for those who move with intention.
+</p>
+</div>
+</section>
+
+<section id="events">
+<h2>April 18th Private Event</h2>
+<div class="container">
+<p>
+An upscale networking and social experience.
+Private venue. Curated guest list. Elevated atmosphere.
+</p>
+</div>
+</section>
 
 <section id="membership">
-<div class="box">
-
-<h2>Membership Access</h2>
+<h2>Membership Access – $75 Annual</h2>
+<div class="container">
 
 <p>
-Early ticket access • Private event invites • Priority entry
+Early ticket access • Priority entry • Members-only releases
 </p>
 
-<h3 style="margin-top:40px;">Pay with Cash App</h3>
+<h3>Pay with Cash App</h3>
 
 <p>
 Send $75 to <strong>$Bigmoochie2816</strong>
 </p>
 
-<!-- QR IMAGE (if different file, change name below) -->
-<img src="logo.png" alt="Cash App QR Code" class="qr">
+<img src="B3FA3C51-EAAB-4A74-85DD-8296268C7EDC.png" class="qr">
 
-<p style="margin-top:20px; font-size:14px; opacity:0.8;">
+<p style="margin-top:15px; font-size:14px;">
 Include your full name in the payment note for verification.
 </p>
+
+</div>
+</section>
+
+<section id="policies">
+<h2>Event Policies & Digital Agreement</h2>
+<div class="container">
+
+<div class="policy-box">
+<h3>Code of Conduct</h3>
+<p>
+All attendees must maintain professional and respectful behavior.
+Harassment, aggression, or disruptive conduct will result in removal without refund.
+</p>
+</div>
+
+<div class="policy-box">
+<h3>Weapons Policy</h3>
+<p>
+No weapons of any kind are permitted, regardless of permit status.
+Violation results in immediate removal.
+</p>
+</div>
+
+<div class="policy-box">
+<h3>Alcohol Policy</h3>
+<p>
+Attendees must be 21 years or older if alcohol is present.
+Guests are responsible for their own consumption and behavior.
+</p>
+</div>
+
+<div class="policy-box">
+<h3>Digital Liability Waiver</h3>
+<p>
+By attending, you voluntarily assume all risks associated with participation.
+You release and discharge Legacy Society and its organizers from any liability
+arising from attendance.
+</p>
+
+<p>
+By purchasing or attending, you confirm that you have read and agree to all policies above.
+</p>
+</div>
 
 </div>
 </section>
@@ -172,4 +203,3 @@ Include your full name in the payment note for verification.
 
 </body>
 </html>
-
