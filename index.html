@@ -4,20 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>LEGACY</title>
+<title>LEGACY SOCIETY</title>
 
 <style>
 
-/* BACKGROUND */
+/* GLOBAL */
 
 body{
 margin:0;
-font-family:Arial;
+font-family:Arial, Helvetica, sans-serif;
 color:white;
 
+/* BACKGROUND IMAGE */
+
 background:
-linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.95)),
-url("your-background.jpg");
+linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.95)),
+url("legacy-background.jpg");
 
 background-size:cover;
 background-position:center;
@@ -31,11 +33,11 @@ header{
 background:black;
 padding:30px;
 text-align:center;
-font-size:40px;
+font-size:42px;
 letter-spacing:10px;
 font-weight:bold;
 color:gold;
-border-bottom:1px solid gold;
+border-bottom:2px solid gold;
 }
 
 
@@ -52,13 +54,13 @@ margin-bottom:20px;
 }
 
 .hero p{
-font-size:20px;
+font-size:22px;
 color:#ccc;
 }
 
 .joinbtn{
 margin-top:30px;
-padding:18px 40px;
+padding:18px 45px;
 font-size:20px;
 background:gold;
 color:black;
@@ -68,7 +70,7 @@ border-radius:6px;
 }
 
 
-/* SECTION */
+/* SECTIONS */
 
 .section{
 padding:80px 20px;
@@ -80,16 +82,17 @@ text-align:center;
 .section h2{
 font-size:40px;
 color:gold;
+margin-bottom:20px;
 }
 
 
 /* ALBUM */
 
 .album{
-margin-top:40px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
+margin-top:40px;
 }
 
 .album img{
@@ -102,7 +105,7 @@ border:2px solid gold;
 /* MEMBERSHIP */
 
 .membership{
-background:rgba(0,0,0,.85);
+background:rgba(0,0,0,.9);
 padding:80px 20px;
 border-top:1px solid gold;
 border-bottom:1px solid gold;
@@ -126,10 +129,12 @@ border-radius:6px;
 }
 
 
-/* SUPPORT */
+/* QR */
 
-.support{
-font-size:22px;
+.qr img{
+width:240px;
+border-radius:10px;
+border:3px solid gold;
 }
 
 
@@ -161,7 +166,7 @@ border-top:1px solid gold;
 
 <header>
 
-LEGACY
+LEGACY SOCIETY
 
 </header>
 
@@ -171,7 +176,8 @@ LEGACY
 <h1>Build Something That Outlives You</h1>
 
 <p>
-Legacy is a global network of creators, leaders, and visionaries.
+Legacy Society is a network of creators, leaders, entrepreneurs,
+and visionaries building generational impact.
 </p>
 
 <button class="joinbtn">
@@ -182,6 +188,9 @@ JOIN LEGACY
 
 </div>
 
+
+
+<!-- ALBUM -->
 
 <div class="section">
 
@@ -194,9 +203,13 @@ Legacy exists across every generation of humanity.
 <div class="album">
 
 <img src="caveman.jpg">
+
 <img src="rainman.jpg">
+
 <img src="pillars.jpg">
+
 <img src="astronaut.jpg">
+
 <img src="space-tablet.jpg">
 
 </div>
@@ -204,9 +217,12 @@ Legacy exists across every generation of humanity.
 </div>
 
 
-<div class="membership">
 
-<h2>Join Legacy</h2>
+<!-- MEMBERSHIP -->
+
+<div class="membership" id="join">
+
+<h2>Join Legacy Society</h2>
 
 <p>Apply to become a member</p>
 
@@ -229,18 +245,46 @@ Submit Application
 </div>
 
 
-<div class="section support">
+
+<!-- MEMBERSHIP QR -->
+
+<div class="section qr">
+
+<h2>Scan To Join Legacy</h2>
+
+<p>
+Use your phone camera to apply instantly.
+</p>
+
+<img src="membership-qr.png">
+
+</div>
+
+
+
+<!-- CASH APP -->
+
+<div class="section qr">
 
 <h2>Support Legacy</h2>
 
 <p>
+Scan to support the Legacy Society movement.
+</p>
 
-Cash App: <b>$LegacyNetwork</b>
+<img src="cashapp-qr.png">
+
+<p>
+
+Cash App: <b>$LegacySocietyHQ</b>
 
 </p>
 
 </div>
 
+
+
+<!-- CODE OF CONDUCT -->
 
 <div class="section">
 
@@ -248,16 +292,22 @@ Cash App: <b>$LegacyNetwork</b>
 
 <p>
 
-Members of Legacy must operate with integrity and respect.
-Harassment, discrimination, or illegal activities will result
-in immediate removal from the Legacy community.
+Members of Legacy Society must operate with integrity,
+respect others, and contribute positively to the community.
 
-Legacy exists to build powerful networks and positive impact.
+Harassment, discrimination, illegal activity,
+or abuse of the platform will result in removal.
+
+Legacy exists to build powerful networks
+and generational impact.
 
 </p>
 
 </div>
 
+
+
+<!-- WAIVER -->
 
 <div class="section waiver">
 
@@ -265,11 +315,11 @@ Legacy exists to build powerful networks and positive impact.
 
 <p>
 
-By attending Legacy events or participating in Legacy activities,
-you acknowledge that participation is voluntary.
+By attending Legacy events or participating in Legacy
+activities you acknowledge that participation is voluntary.
 
-Legacy organizers are not responsible for injuries, damages,
-or losses that may occur during participation.
+Legacy Society organizers are not responsible
+for injuries, damages, or losses occurring during participation.
 
 </p>
 
@@ -277,16 +327,17 @@ or losses that may occur during participation.
 
 <input type="checkbox">
 
-I Agree to the Liability Terms
+I agree to the liability waiver.
 
 </label>
 
 </div>
 
 
+
 <footer>
 
-© 2026 LEGACY
+© 2026 Legacy Society
 
 </footer>
 
