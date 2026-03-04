@@ -1,256 +1,206 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-<title>Legacy Society</title>
-
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LEGACY</title>
 
 <style>
 
 body{
 margin:0;
-font-family:Arial, sans-serif;
-background:#000;
-color:#fff;
+font-family:Arial;
+background:black;
+color:white;
 text-align:center;
 }
 
-/* HERO SECTION */
+header{
+background:black;
+padding:30px;
+font-size:40px;
+letter-spacing:10px;
+font-weight:bold;
+color:gold;
+}
 
 .hero{
-
-background-image:url("099B0519-7BE0-4A88-BB45-5273012EC4BC.png");
-background-size:cover;
-background-position:center;
-
-padding:160px 20px;
-
+padding:100px 20px;
+background:linear-gradient(black,#111);
 }
 
-/* DARK OVERLAY */
-
-.hero::before{
-
-content:"";
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.55);
-
-}
-
-/* HERO CONTENT */
-
-.hero-content{
-
-position:relative;
-z-index:2;
-
-}
-
-.logo{
-
-width:320px;
-max-width:90%;
-margin-bottom:30px;
-
-}
-
-h1{
-
-font-size:70px;
-letter-spacing:6px;
-
-background:linear-gradient(90deg,#d4af37,#f7e7a1,#d4af37);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-
-text-shadow:0 0 25px rgba(212,175,55,0.4);
-
+.hero h1{
+font-size:60px;
 margin-bottom:20px;
-
 }
 
-.tagline{
-
-font-size:22px;
-color:#9ad0ff;
-margin-bottom:50px;
-
+.hero p{
+font-size:20px;
+color:#ccc;
 }
 
-/* BUTTON */
-
-.button{
-
-display:inline-block;
-
-padding:18px 45px;
-
-background:linear-gradient(45deg,#ff2f7d,#ffb26b);
-
-border-radius:40px;
-
-text-decoration:none;
-color:white;
-
-font-size:18px;
-
-box-shadow:0 0 30px rgba(255,120,180,0.5);
-
-transition:.3s;
-
-}
-
-.button:hover{
-
-transform:scale(1.05);
-box-shadow:0 0 40px rgba(255,120,180,0.8);
-
-}
-
-/* SECTIONS */
-
-section{
-
-background:#0a0a0a;
-
-padding:90px 25px;
-
-max-width:900px;
-
-margin:80px auto;
-
-border-radius:12px;
-
-}
-
-h2{
-
-color:#d4af37;
-margin-bottom:25px;
-
-}
-
-/* CONTACT FORM */
-
-input,textarea{
-
-width:300px;
-
-display:block;
-
-margin:12px auto;
-
-padding:12px;
-
+.joinbtn{
+padding:15px 40px;
+background:gold;
 border:none;
+font-size:20px;
+cursor:pointer;
+}
 
-border-radius:6px;
+.section{
+padding:80px 20px;
+}
 
+.album{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.album img{
+width:100%;
+border-radius:10px;
+}
+
+.membership{
+background:#111;
+padding:60px;
+}
+
+input{
+padding:15px;
+margin:10px;
+width:250px;
+}
+
+button{
+padding:15px 30px;
+background:gold;
+border:none;
+cursor:pointer;
 }
 
 footer{
-
-margin-top:80px;
-padding:30px;
-
+padding:40px;
+background:black;
 color:#777;
-
 }
 
 </style>
-
 </head>
 
 <body>
 
-<!-- HERO -->
+<header>
+
+LEGACY
+
+</header>
 
 <div class="hero">
 
-<div class="hero-content">
-
-<img src="B3FA3C51-EAAB-4A74-85DD-8296268C7EDC.png" class="logo">
-
-<h1>LEGACY SOCIETY</h1>
-
-<div class="tagline">
-
-Curated Rooms. Elevated Minds. Timeless Influence.
-
-</div>
-
-<a class="button">Apply For Access</a>
-
-</div>
-
-</div>
-
-<!-- ABOUT -->
-
-<section>
-
-<h2>About</h2>
+<h1>Build Something That Outlives You</h1>
 
 <p>
-
-Legacy Society is a private curated network designed for elevated minds,
-meaningful connections, and exclusive experiences.
-
-This is not for everyone.
-
-This is for those who move with intention.
-
+Legacy is a global network of creators, thinkers, builders, and visionaries.
 </p>
 
-</section>
+<button class="joinbtn">JOIN LEGACY</button>
 
-<!-- EVENT -->
+</div>
 
-<section>
+<div class="section">
 
-<h2>April 18th Private Event</h2>
+<h2>The Legacy Timeline</h2>
 
-<p>
+<p>Legacy has existed through every era of humanity.</p>
 
-An upscale networking and social experience.
+<div class="album">
 
-Private venue. Curated guest list. Elevated atmosphere.
+<img src="caveman.jpg">
+<img src="rainman.jpg">
+<img src="pillars.jpg">
+<img src="astronaut.jpg">
+<img src="space-tablet.jpg">
 
-</p>
+</div>
 
-</section>
+</div>
 
-<!-- CONTACT -->
+<div class="membership">
 
-<section>
+<h2>Become A Member</h2>
 
-<h2>Contact Legacy Society</h2>
+<p>Join the Legacy network.</p>
 
-<form action="https://formspree.io/f/meelyepd" method="POST">
+<form>
 
-<input type="text" name="name" placeholder="Your Name" required>
+<input placeholder="Full Name"><br>
+<input placeholder="Email"><br>
+<input placeholder="Phone"><br>
 
-<input type="email" name="email" placeholder="Your Email" required>
-
-<textarea name="message" rows="5" placeholder="Your Message"></textarea>
-
-<button class="button" type="submit">Send Message</button>
+<button>Submit Application</button>
 
 </form>
 
-</section>
+</div>
+
+<div class="section">
+
+<h2>Support Legacy</h2>
+
+<p>Send contributions to build the network.</p>
+
+<p>
+
+Cash App: <b>$LegacyNetwork</b>
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Code Of Conduct</h2>
+
+<p>
+
+Members of Legacy must respect others and operate with integrity.
+Harassment, discrimination, or illegal activity will result in permanent removal.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Event Liability Waiver</h2>
+
+<p>
+
+By attending Legacy events, you agree that participation is voluntary and
+you assume responsibility for your safety.
+
+Legacy and its organizers are not liable for injuries or damages.
+
+</p>
+
+<label>
+
+<input type="checkbox"> I Agree To Terms
+
+</label>
+
+</div>
 
 <footer>
 
-© 2026 Legacy Society. All Rights Reserved.
+© 2026 LEGACY
 
 </footer>
 
 </body>
 </html>
+
