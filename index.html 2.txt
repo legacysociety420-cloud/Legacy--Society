@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Legacy Society</title>
+<style>
+body{
+background:black;
+color:white;
+font-family:Arial;
+text-align:center;
+padding-top:100px;
+}
+h1{
+font-size:60px;
+color:gold;
+}
+p{
+font-size:22px;
+width:60%;
+margin:auto;
+}
+button{
+background:gold;
+border:none;
+padding:15px 30px;
+font-size:20px;
+margin-top:40px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>LEGACY</h1>
+
+<p>
+Legacy Society is a movement built on leadership, power, and unity.
+We believe in building a future where culture, wealth, and influence
+are controlled by those bold enough to create it.
+</p>
+
+<button onclick="window.location.href='https://cash.app/$YourCashTag'">
+Support the Movement
+</button>
+
+</body>
+</html>
