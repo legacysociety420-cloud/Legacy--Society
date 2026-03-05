@@ -35,7 +35,8 @@ width:70px;
 opacity:0.95;
 z-index:999;
 filter:drop-shadow(0 0 6px gold);
-animation: glowPulse 3s infinite;  
+animation: glowPulse 3s infinite, sealRotate 20s linear infinite;
+ 
 }
 @media (max-width:600px){
 .corner-logo{
@@ -53,7 +54,32 @@ text-align:center;
 font-size:42px;
 letter-spacing:10px;
 font-weight:bold;
-color:gold;
+header{
+background:black;
+padding:30px;
+text-align:center;
+font-size:42px;
+letter-spacing:10px;
+font-weight:bold;
+
+background:linear-gradient(
+90deg,
+#8a6a00,
+gold,
+#fff6b0,
+gold,
+#8a6a00
+);
+
+background-size:200%;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation:goldShimmer 6s linear infinite;
+
+border-bottom:2px solid gold;
+}
+
 border-bottom:2px solid gold;
 }
 
